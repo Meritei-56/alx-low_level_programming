@@ -1,10 +1,9 @@
 #include<stdio.h>
 /**
- * main - a program to print the sizes of various tpes in a computer
+ * main - A program to print the sizes of various data types in a computer
  *
- * Ruturn: 0 (Success)
+ * Ruturn: Always 0 (Success)
  */
-
 int main(void)
 {
 	char c;
@@ -20,4 +19,3 @@ int main(void)
 		printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
 }
-
