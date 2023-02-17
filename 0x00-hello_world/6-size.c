@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - A program that prints the sizes of various data types in a computer
+ * main - To create a program that prints the sizes of various data types in a computer dependin on the different sizes
  *
  * Ruturn 0 (Success)
  */
