@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
- * main - A program to print the sizes of various data types in a computer
+ * main - A program that prints the sizes of various data types in a computer
  *
- * Ruturn: Always 0 (Success)
+ * Ruturn 0 (Success)
  */
-int main()
+int main(void)
 {
 	char c;
 	int i;
