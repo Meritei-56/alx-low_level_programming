@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	char Alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int c;
+	int char Alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	for (c = 0; c < 26; c++)
+	for (i = 0; i < 26; i++)
 	{
 		putchar(Alp[c]);
 	}
-	putchar("Alp\n");
+	putchar('\n');
 	return (0);
 }
