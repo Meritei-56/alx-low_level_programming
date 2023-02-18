@@ -14,9 +14,8 @@ int main(void)
 	{
 		putchar(c);
 	}
-	putchar('\n');
 
-	/* print aphabets in uppercase*/
+	/* print alphabets in uppercase*/
 
 		for (c = 'A'; c <= 'Z'; c++)
 		{
