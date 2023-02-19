@@ -17,11 +17,11 @@ int main(void)
 	{
 		putchar(h);
 	}
-	putchar('\n');
 
 	for (d = 'a'; d <= 'f'; d++)
 	{
 		putchar(d);
 	}
+	putchar('\n');
 	return (0);
 }
