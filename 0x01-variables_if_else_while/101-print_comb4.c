@@ -22,12 +22,12 @@ int main(void)
 	{
 	for (o = n + 1; 0 <= '9'; o++)
 	{
-	if ((m != n) != o)
+	if (m != n && m != o && n != o)
 	{
 	putchar(m);
 	putchar(n);
 	putchar(o);
-	if (m == '7' && n == '8')
+	if (m + n + o < 24)
 	continue;
 	putchar(',');
 	putchar(' ');
