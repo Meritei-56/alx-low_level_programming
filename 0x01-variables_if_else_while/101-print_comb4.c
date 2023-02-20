@@ -12,20 +12,20 @@
 
 int main(void)
 {
-	int m, n, o;
+	int m, n, l;
 
 	for (m = '0'; m < '9'; m++)
 	{
 	for (n = m + 1; n <= '9'; n++)
 	{
-	for (o = n + 1; o <= '9'; o++)
+	for (l = n + 1; l <= '9'; l++)
 	{
-	if (m != n && m != o && n != o)
+	if (m != n && m != l && n != l)
 	{
 	putchar(m);
 	putchar(n);
-	putchar(o);
-	if (m + n + o < 24)
+	putchar(l);
+	if (m == '7' && n == '8')
 	continue;
 	putchar(',');
 	putchar(' ');
