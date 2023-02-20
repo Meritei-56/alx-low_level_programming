@@ -12,13 +12,13 @@
 
 int main(void)
 {
-	int m,n,o;
+	int m, n, o;
 
 	for (m = '0'; m < '9'; m++)
 	{
 	for (n = m + 1; n <= '9'; n++)
 	{
-	for (o = n + 1; 0 <= '9'; o++)
+	for (o = n + 1; o <= '9'; o++)
 	{
 	if (m != n && m != o && n != o)
 	{
