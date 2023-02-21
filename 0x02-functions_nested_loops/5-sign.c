@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * main - create code
  * print_sign: a function in file main.h to print sign of numbers
  *
  * @n: numbers entered for the system to print their signs
