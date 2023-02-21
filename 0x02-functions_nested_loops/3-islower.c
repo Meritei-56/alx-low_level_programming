@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * function _islower - program to check character entered
- * parameter or member 'c' - character entered
+ * _islower - program created by user to check characters entered
+ * int 'c' - character entered to be checked to-
+ * determine whether lowercase
  *
  * Return: 1 if lowercase character or 0 if otherwise
  */
