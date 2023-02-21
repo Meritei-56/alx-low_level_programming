@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_sign - a function in file main.h to print sign of numbers
+ * print_sign - (description)-a function in file main.h to print sign of numbers
  *
- * n - impies numbers entered for the system to print their signs
+ * n (description) - impies numbers entered for the system to print their signs
  *
  * return: 0, 1, or -1 for print_sign function
  */
