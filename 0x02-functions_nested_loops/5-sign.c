@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * pr_sign - create code
  * print_sign: prototype function to print sign of numbers
+ * create code
  *
  * @n: numbers entered for the system to print their signs
  *
