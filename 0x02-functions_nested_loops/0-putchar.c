@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
  * main - a program that prints _putchar
@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-int _putchar(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
