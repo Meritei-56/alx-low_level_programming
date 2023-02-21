@@ -3,11 +3,11 @@
 /**
  * main - function to print the alphabets in lowercase
  * followed by new line
- * prototype void print_alphabet(void) is used
- * Return: Always 0i
+ * print_alphabet - protype to make alphabets
+ * Return: void
  */
 
-void print_alphabet(void)
+void print_alphabet(void);
 {
 	char a;
 
