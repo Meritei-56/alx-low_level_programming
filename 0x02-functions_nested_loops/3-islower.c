@@ -2,20 +2,21 @@
 
 /**
  * int _islower(int c) - prototype
- * _islower - program to detect lowercase numbers
- *'c' _islower - user program
+ * function _islower' - program to check if character entered is lowercase
+ * 'c' - character entered
  *
- * Return: Always 1 or 0 (Success)
+ * Return: 1 if lowercase character or 0 if otherwise
  */
 
 int _islower(int c)
 {
-
-for (c >= 97 && c <= 122)
+	if (c >= 'a' && c <= 'z')
+	{
+	return (1);
+	}
+	else
+	{
+	return (0);
+	}
 {
-return (1);
 
-else
-}
-return (0);
-}
