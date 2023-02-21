@@ -3,7 +3,8 @@
 /**
  * main - function to print the alphabets in lowercase
  * followed by new line
- * Return: Always 0
+ * prototype void print_alphabet(void) is used
+ * Return: Always 0i
  */
 
 void print_alphabet(void)
