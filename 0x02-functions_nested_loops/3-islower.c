@@ -5,16 +5,17 @@
  * _islower - program to detect lowercase numbers
  *'c' _islower - user program
  *
- * Return: 1 if c is lowercase or 0 if otherwise
+ * Return: Always 1 or 0 (Success)
  */
 
 int _islower(int c)
 {
 
-if (c = '97' && c <= '122')
+for (c >= 97 && c <= 122)
 {
-
 return (1);
+
+else
 }
 return (0);
 }
