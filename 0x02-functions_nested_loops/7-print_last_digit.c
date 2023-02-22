@@ -5,19 +5,19 @@
  *
  * print_last_digit: program to check last digits
  *
- * n: the integer to be computed
- * m: last digit
+ * @m: the integer to be computed
+ * @n: last digit
  * Return: last digit value
  */
 
-int print_last_digit(int n)
+int print_last_digit(int m)
 {
-	int m = n % 10;
+	int n = m % 10;
 
-	if (m < 0)
-		m *= -1;
+	if (n < 0)
+		n = -1;
 
-	_putchar(m + '0');
+	_putchar(n + '0');
 
 	return (0);
 }
