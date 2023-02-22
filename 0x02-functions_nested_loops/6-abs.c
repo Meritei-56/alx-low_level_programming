@@ -3,7 +3,7 @@
 
 /**
  * _abs(int): returns absolute value of integers
- * int: integers are entered and computed
+ * @n: integers are entered and computed
  *
  * Return: absolute values of integers
  */
