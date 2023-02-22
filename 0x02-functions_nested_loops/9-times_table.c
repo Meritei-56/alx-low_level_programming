@@ -2,7 +2,7 @@
 
 /**
  * main - program to print times table
- * times_table: prints 9 times table
+ * times_table: prints 9 times_table
  */
 
 void times_table(void)
@@ -18,6 +18,7 @@ void times_table(void)
 			{
 				_putchar(z + '0');
 			}
+
 			if (z < 10 && y != 0)
 			{
 				_putchar(',');
@@ -25,7 +26,8 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(y + '0');
 			}
-			else if (z >= 0)
+
+			else if (z >= 10)
 			{
 				_putchar(',');
 				_putchar(' ');
