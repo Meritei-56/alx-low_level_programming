@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * print_numbers - function definition
  * Description: prints digits 0 to 9
@@ -7,11 +6,11 @@
  */
 void print_numbers(void)
 {
-	int i;
+	int nums;
 
-	for (i = 0; i <= 9; i++)
+	for (nums = 0; nums <= 9; nums++)
 	{
-		_putchar(i + '0');
+		_putchar(nums + '0');
 	}
 	_putchar('\n');
 }
