@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _isdigit: checks for digits 
+ * _isdigit - function definition
+ * Description: checks for digits
  * @n: elements entered
  * Return: 1 if a digit otherwise 0
  */
