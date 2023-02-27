@@ -8,12 +8,6 @@
  */
 void reset_to_98(int *p)
 {
-	int n;
-
-	n = 402;
-	p = &n;
-	_putchar("%d");
 	*p = 98;
-	_putchar("%d");
 }
 
