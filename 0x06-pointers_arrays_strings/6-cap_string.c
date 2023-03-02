@@ -20,7 +20,7 @@ char *cap_string(char *st)
 		st[ix - 1] == '-' || st[ix - 1] == '?' || st[ix - 1] == '"' ||
 		st[ix - 1] == '(' || st[ix - 1] == ')' || st[ix - 1] == '{' ||
 		st[ix - 1] == '}' || ix == 0)
-		st[ix] = st[ix] - 32;
+		st[ix] -= 32;
 	}
 	ix++;
 	}
