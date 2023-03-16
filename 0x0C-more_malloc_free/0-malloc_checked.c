@@ -6,7 +6,7 @@
  * Description: allocates a memory using malloc
  * @b: integer
  *
- * Return; pointer to allocated memory
+ * Return: str
  */
 void *malloc_checked(unsigned int b)
 {
@@ -18,6 +18,6 @@ void *malloc_checked(unsigned int b)
 	{
 	exit(98);
 	}
-	
+
 	return (str);
 }
