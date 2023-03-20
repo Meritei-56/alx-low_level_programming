@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "dog.h"
 #include <stdlib.h>
 /**
  * init_dog - function definition
@@ -10,17 +10,12 @@
  * @owner: structure member
  * Return: void
  */
-struct dog
-{
-	*d;
-	char *name;
-	float age;
-	char *owner;
-};
-
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	struct dog my_dog;
-	*d;
+	if (d == NULL)
+		d = malloc(sizeof(struct dog));
+	d->name = name;
+	d->age = age;
+	d->owner = owner;
 
 }
