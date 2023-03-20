@@ -1,12 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef DOG_H
+#define DOG_H
 
 /**
- * main - create code
- * Description: defines a new type struct dog
- * @struct dog: structure name
+ * struct dog - basic dog's information
  *
- * Return: Always 0.
+ * Description: describes a new type
+ *
+ * @name: struct member
+ * @age: second struct member
+ * @owner: third member
+ *
+ * Return: changes
  */
 
 struct dog
@@ -15,3 +19,15 @@ struct dog
 	float age;
 	char *owner;
 };
+
+/**
+ * dog_t: typedef for struct dog
+ */
+typedef struct dog dog_t;
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
+
+#endif
