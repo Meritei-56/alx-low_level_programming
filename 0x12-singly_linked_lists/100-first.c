@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void print_sentence(void) __attribute__ ((constructor));
+
 /**
  * print_sentence - function
  * Description: prints sentences
