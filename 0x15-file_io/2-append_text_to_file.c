@@ -34,7 +34,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	output = fputs(text_content, fd);
 	fclose(fd);
 
-	return ((output == EOF) ? -1: 1);
+	return ((output == EOF) ? -1 : 1);
 }
 
 
