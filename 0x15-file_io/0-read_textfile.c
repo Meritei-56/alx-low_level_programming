@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * ssize_t read_textfile - function
+ * read_textfile - function prototype
  * Description: reads a function and prints to the POSIX
  * @filename: text file
  * @letters: number of letters that could be read and printed
